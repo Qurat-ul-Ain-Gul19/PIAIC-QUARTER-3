@@ -1,0 +1,699 @@
+OS is basically a software that takes care of making the hardware work for you.
+It is the RESOURSE ALLOCATER AND HARWARE MANAGER.
+
+ A special kind of software
+which is between the hardware of the PC, and the programs that you want to
+use and work with. This piece of software is the Operating System,
+
+
+MAIN FUNCTIONS OF OS:
+
+Detect hardware
+
+Manage processes
+
+also acts as translator, converts 0,1 to human readable form
+
+Manage memory
+
+Initiate user interfaces
+
+
+Establish file systems 
+
+
+Manage access and user authentication
+
+Provide a platform for administrative use 
+
+
+Start-up services
+
+
+linux os is better bcz of throughput :-
+multiple tasks executed per unit time...
+fast exectuon of multiple task, more less process time,
+windows on the other hand crashes if multiple task r tried to get done from it.
+
+
+.................................................
+MAJOR FUNCTIONS OF OS:-
+1.RESOURCE MANAGEMENT
+MULTIPLE USERS CONNECTED TO SINGLE MACHINE, like a server 
+parallel users connected to a machine and using its resources , like hard disk and memory.
+ 
+2.MEMORY MANAGEMENT 
+each application getting executed is first send to RAM
+RAM, allocates memory to it and sends it to the  cpu.
+after that cpu schedular executes it according to its prioirty
+after that RAM gets the memory back to it.
+
+3.PROCESS MANAGEMENT 
+multiple applications running in a same time, 
+each has its corresponding process wd it, so its the OS which decides how much resource
+to b given to an individual process.
+CPU SCHEDULING
+
+4.STORAGE MANAGEMENT 
+store data in drive using file system
+
+
+5.SECURITY MANAGEMENT 
+os refers to specific steps to protect OS from threats, viruses and malware.
+checking authentications at the time of boot up also refers to authentications.
+
+.....................................................
+
+DRIVERS:
+ a driver is a software component that lets the operating system 
+and a device communicate with each other. 
+
+PROCESS:-
+A process is a program that is running on your computer.
+In computing, a process is the instance of a computer program that is being executed by one or many threads.
+It contains the program code and its activity.
+
+
+A process is a program in execution. Process is not as same as program code but a lot more than it. 
+A process is an 'active' entity as opposed to program which is considered to be a 'passive' entity
+
+
+When a program gets executed, it becomes a process.
+
+Daemon process
+The key difference between a Process and a Daemon is that a Daemon's parent is init - the first process started during *Nix booting. 
+And that is why a Daemon is not connected to a terminal. So when you close your terminal it will not be killed by OS. 
+
+
+Daemon process in Operating System
+In multitasking computer operating systems, a daemon 
+ is a computer program that runs as a background process, rather than being under the direct control of an interactive user
+
+
+
+UNIX AND LINUX OS:-
+Linux is open source and is developed by Linux community of developers. Unix was developed by AT&T Bell labs and is not open source. ... 
+Linux is used in wide varieties from desktop, servers, smartphones to mainframes. Unix is mostly used on servers, workstations or PCs.
+
+Linux is just the kernel. Unix is a complete package of Operating system.
+Linux is a Unix clone,behaves like Unix but doesn't contain its code
+
+
+
+The kernel is a computer program at the core of a computer's operating system that has complete control over everything in the system. 
+It is the "portion of the operating system code that is always resident in memory", and facilitates interactions between hardware and software components.
+assessing the hardware is done through kernal.
+acts as  a bridge between hardware and kernal
+
+
+The Kernel is responsible for low-level tasks such as disk management, memory management, task management, etc.
+
+Operating system is a system software. Kernel is a part of operating system. 
+Operating system acts as an interface between user and hardware. Kernel acts as an interface between applications and hardware.
+
+
+KERNAL & USER MODE:-
+system memory is divided into kernal space and user space.
+
+at user space, the processes of our applications r running.
+
+program 1
+program 2
+program 3
+
+
+
+coding of any application is done in ur mode but fo running/executing it requires kernal space
+
+For running any application kernal mode is required, like running the djnago app , a cmd is req
+from user space for accessing a particular hardware to kernal space a system call is sent ,
+
+these calls in c language.sends request from user space to kernal space to let it access the hardware and execute a particular function.
+
+GNU C LIB,, standard lib for system calls.. for converting a user space to kernal space
+
+functions like print(), write(),chmode, sudo command etc
+
+
+
+linux uses a herirical system for files, stores in directories
+a root directory and further gets emulated from it,
+no drives like that in windows
+
+LINUX USE:-
+This operating system was first used as a server OS and then was used
+as a base for Android developers 
+
+
+
+as OS Is an intefphase between computer hardware and user , KERNEL is an interphase between User and Application running.its interphase btw hardware nd application
+Its not same as OS but is a core part of it.
+
+it makes the application interact wd the specific hardware and get its job done.
+
+
+BENEFITS OF LINUX:-
+
+COST EFFECTIVE
+FREE FROM VIRUSES
+SYSTEM STABILITY
+INSTALLATION 
+SUPPORT
+
+ram = main memory:
+AS long as pc is working ram is being used
+
+
+
+Central processing unit (CPU), principal part of any digital computer system, generally composed of the main memory, control unit, and arithmetic-logic unit.
+
+The CPU is responsible for executing a sequence of stored instructions called a program .
+
+fetch,decode,execute,store
+
+Common CPU components
+control unit (CU)
+arithmetic logic unit (ALU)
+registers.......................Registers are a type of computer memory used to quickly accept, store, and transfer data and instructions that are being used immediately by the CPU.
+cache.
+buses.
+clock.
+
+
+
+Linux-compatible softwares come in .rpm for RPM (Fedore, SUSE) or
+.deb for Debian (Debian, Ubuntu, Xandros) packages.
+
+
+
+Shutteris the package name. Use the package name and run the apt-get
+install command again.
+
+apt-get Shutteris
+
+
+
+Aside from installing packages via the command line, you can also use
+the Software & Updates Tool. The GUI provides a simple and easy way to
+update your Ubuntu software and download packages
+
+
+
+Using the Shell Features
+
+...Command Completion
+
+
+Reboot :- Restart the computer
+
+Shutdown :- Turn off computer
+
+
+
+To see the processes that are consuming the most CPU resources
+and memory allocation, use the top command.
+
+
+To exit the top command output display, press Q
+
+
+
+
+LINUX COMMANDS:-
+
+for getting a software in ubuntu through cli:
+
+apt-get install <package-name>
+
+
+for installing u need to be as normal user from root user,
+for that do the following:-
+
+asscesing root user:-
+
+
+normal user :- create a file , read a file, edit a file but cant do system changes or install dependencies & libraries/packages
+
+super user:- create a file , read a file, edit a file & also system changes without any error
+
+
+
+
+sudo su  :- for logging into the root user
+
+apt-get install python
+
+
+for keeping urself in normal user nd installing dependencies u have to use command:-
+
+
+sudo apt-get install python
+
+"sudo" gains all security privilidges for root users that can also be used for normal user
+
+SHORTCUTS:
+
+CTRL  +  A : cursor at start
+   
+CTRL  + E : cursor at the end
+
+
+command for creatig file :-  " touch "
+
+
+touch myfile.txt
+
+
+ls :- shows all text/ data in current directory
+
+for any file editing :- 'vi' editor is used
+
+
+vi is default linux editor
+
+
+vi myfile.txt 
+
+
+i :- for insert mode
+
+for saving thhe data and coming out of insert mode press ESC key
+
+shift and ; used for save
+
+
+:wq 
+
+thus through it data has been sucessfully saved  
+
+cat myfile.txt :- displays all data
+
+
+CREATING DIRECTORY/folder :-
+
+mkdir 
+
+mkdir cnc-practise
+
+ls ( for checking if the file hasbeen made or not)
+
+change directory :"cd"
+
+
+SCRIPT IS BASICALLY A COMPILED PROGRAM:-
+if  u want to make same task over and again then use script
+
+
+
+
+SCRIPT CREATION:-
+
+touch simple.sh   // for scripts .sh extension
+
+for writing mode
+
+
+vi simple.sh
+
+
+i 
+
+
+#!/bin/bash 
+
+echo my first name is: $1
+echo my last  name is: $2
+
+
+:wq
+
+now, use command for going into the file & passing arguments "$"
+
+
+./simple.sh 
+
+
+FILE PERMISSIONS:-
+
+0 :- no permission
+
+1 :- executable permission
+
+4:-   read permission
+
+
+giving executable command
+
+
+ls -l : for telling which commands right now we have wd a particular file:
+
+
+chmode 777 simple.sh 
+
+it means give permisiions to all three classes:
+
+-rw : permissions grant to single user 
+-rw- :for groups
+-r-- : for other users
+
+
+ls -l
+
+
+
+./simple.sh anie raja  
+
+now it will run
+
+
+for changing permissions that r given to the file owner
+
+for giving read only permissions:
+
+chmod 477 
+
+
+it means giving read only permissions to the first class only 
+and giving all three permissions to the other classes
+
+ls -l
+
+
+CPU INFORMATION & HARD-DISK checking using cli commnads :-
+
+uname -a
+
+uname -p
+
+lscpu :- command for giving complete detail of cpu
+
+cat/proc/cpuinfo
+
+
+for disk space:
+
+df: tells us space/ memory used
+
+df -h : output same but in human readable form
+
+....for checking file size in directory 
+
+
+du
+
+
+for telling the total size of directory not indic=vidual
+
+du -s
+
+for downloading : software centre
+
+shell executes our commands and also executing multiple programms and softwares
+
+
+apt -get install <pkgname>
+
+for removing a software
+
+sudo apt remove <pkg name>
+
+
+clear = cls
+
+
+
+
+sudo apt-cache search python         : when u dont know whole info about the pkg nd just want to rmv it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

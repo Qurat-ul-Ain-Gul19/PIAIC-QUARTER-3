@@ -1,0 +1,100 @@
+ocr:ieee
+
+
+for getting journals 
+
+
+CHAPTER 6 : TEXTUAL DATA:-
+
+also called sequential data
+time series data is also sequential data
+
+
+RNN works:- best on sequetial data 
+
+
+CONV1D IS also used  sequentail data : like textual data
+
+type casting of textual data into numeric data is done before feeding into the NN
+
+
+WAYS TO CONVERT TEXTUAL TO NUMERIC DATA:-
+
+ONe-hot encoding
+word embedding
+
+
+problem of one-hot encoding:-  
+
+lenghty sentences so columns would go on inc 
+
+solution:- WORD EMBEDDING
+
+IT finds similairty and coherence between the words
+
+converts it into low dimensional data
+
+
+converst into corresponding numeric data
+
+
+vector representation
+
+embedding is basically a dictionary:
+every words has a vector assoiciated
+
+embedding size * width 
+like 10k dictionary into 64 
+
+
+form keras.layers import Embedding(embedding_layer=Embedding(1000,64,input_lenght=20)
+
+input_length tells no of words in a particular paragraph
+
+
+every word has a corresponding vector , similar words r having same dictionary values
+
+
+
+
+BAGGING:-N_GRAM
+
+
+
+SPARSE-MATRIX:
+HAVING 0 QUANTITY MORE
+
+
+DENSE_MARIX:-
+HAVING 1 QUANTITY MORE
+
+
+nvtop
+
+cuda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

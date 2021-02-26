@@ -1,0 +1,34 @@
+data augmentations,  
+samples inc after moving img left right, blur, sharpen etc
+
+FEATURE EXTRACTION:-
+pretrained model , fine tuned 
+
+if data is less then above two conditions can be applied
+
+at start max pooling and cnn, etc
+
+at the end, flatten , classifier , densly connected
+
+cat nd dog model,, breaking model intosub folder
+
+
+Convolution:
+min data max insight
+
+
+Regularization:
+
+1.data augmentation,,(diff parameter r passsed to exisring scale)........tranlation-invariant , diff variant to inc data
+fill_mode = nrearest
+incase of flipping/rotating some placement to the removed pixel
+
+2.
+
+
+combinations of covnet and maxooling is used
+
+pg 170
+
+
+assignment..mobnet, vgg16 parameters

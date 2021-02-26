@@ -1,0 +1,140 @@
+transfer learning:-
+already trained model, v use it for own data, made it learn a few more things on it
+
+
+trans invariant:-
+left.right/ mirror has no effect on covnent
+its performance remains same if any operation is performmed ver it 
+
+
+CNN is standard for all computer vision task..
+in pics nd videos conv2d is used, in text convd1d is used 
+
+
+filters nd output both same
+
+
+different filters...
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+
+iphone 29 points f rom face to recognize any person
+
+
+formula
+
+ikn  +b
+
+
+max pooling always (2,2)
+
+inputsahpe= (28,28,1) =grey-scale
+inputsahpe= (28,28,3) =rgb
+
+
+even in cnn last layer u can apply either ann or any other machine learnnng algo, to flatten the output
+one layer gets fored
+
+
+rapid miner, knime tool, automated tools, auto ML''
+
+
+
+ASSIGNMENT 1:-
+
+train data set on MIST FASHION
+ORANGE AND APPLE DATA SET
+
+
+CNN IS "TRASLATION-INVARIANT"
+
+
+
+
+cnn learns local patterns
+
+
+wd maxpooling, downsampling
+\
+
+
+avgpooling
+
+
+to avoid, info loss padding is used, o's r added in all the 4 directons
+
+
+
+
+
+
+
+data augmentation , dropout is used to overcome overfitting.
+
+
+drop ut is applied to training data only
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

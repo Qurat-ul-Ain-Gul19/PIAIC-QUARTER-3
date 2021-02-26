@@ -1,0 +1,77 @@
+
+TRANSFER LEARNINNG:
+in cnn how the learning actually  happns can be shown 
+
+usage of pretrain netwroks for any diff data:-
+
+
+https://www.youtube.com/watch?v=FwbXHY8KCUw&t=1147s
+
+
+FEATURE EXTRATION:-
+FINE- TUNING:-
+
+in deep leanrinig , feature eng plus transfer learing both used
+
+original classification in ann, cnn just extracts the features
+
+pca converts higher dimension into lower dimensions PCA
+
+
+if some frozen cnn layers r also trainded wd Ann layers this is called fine-tuning
+
+
+
+dog-versus-cat,
+pre-trained classifier
+
+keras.io
+
+https://keras.io/api/applications/
+
+
+include_top = ann to b removed or not
+
+feature-map: final picture got after appling covnet and max pooling
+
+imagedatageneartor:-takes imagez directly from folder
+
+augmentation is only applied to training data
+
+
+in cine last layers of of covn2d layers r fined tuned-
+
+techniques to unveil the black box
+
+1.visualizing intermediate convenet outputs
+visulaizing convnrts filters
+visualizing heat maps of 
+
+
+visual data augmentation to fight overfitting
+
+
+fourier trsanformation
+
+
+,MASK_NO MASK CLASSIFICATION
+
+face mask detection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+techniques to see 

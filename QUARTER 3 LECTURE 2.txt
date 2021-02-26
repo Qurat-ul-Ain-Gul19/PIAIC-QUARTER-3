@@ -1,0 +1,131 @@
+date:24-jan-2020
+
+models = sequential, functional api,
+model.add(layers.convd(32,(3,3),activation='relu')
+    here 32= no of filters
+    means that from that single pic ,32 further pics will b formed
+   CNN itself defines and refines which set of filters to be used to get maximum intitution from the picture
+
+.....filter finds edges in the picture
+
+In Convolutional Neural Networks, Filters detect spatial patterns such as edges in an image by
+detecting the changes in intensity values of the image
+
+some,some sharp,some find edges
+
+filters refine ur pics
+
+......here (3,3) is the size of window of convolutional network
+kernal seize is mostly 3,3 or 5,5
+mostly (3,3)
+
+f4 to fix a cell in excell
+
+if we choose 7,7 we will get 5,5  remaining 2 will be left
+
+
+
+padding effect: Addition od zero on all the sides , if u wish to get same size as of input after applying kernal
+
+
+after covnet applying the img got , is applied maxpooling
+
+maxpooling kernal size= (2,2)
+
+Maxpooling halves the pixl values,
+if 4,4 img thenit willl b converted to 2,2
+
+
+valid= Trues, then padding is on
+
+
+one by one, moving is called stride
+
+
+
+
+maxpooling alwayys (2,2) asit halves the pixels.
+
+
+ikn+b = no of learnable- parameters
+
+
+
+bais
+Bias is like the intercept added in a linear equation. It is an additional parameter in the Neural Network which is used to adjust the output along with the weighted sum of the inputs to the neuron. Thus, Bias is a 
+constant which helps the model in a way that it can fit best for the given data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
