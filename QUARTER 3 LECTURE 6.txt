@@ -1,0 +1,197 @@
+raspberry pie:
+credit card size computer , linux os, sd card
+has microprossessor, 
+if v shrink all of our mother board of a computer to one chip it would become a raspberry pie 
+
+
+
+
+ardino:-controls motors, elctronics componsets, sensors, bluetooth , perfect for making robots
+has micro controller
+
+Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
+remote controlcar, speker, light control,
+
+its basically a microcontroller, wd some input ports some output ports rest all things in between u can do 
+
+
+for research paper :
+scholor.google
+
+
+deeplearning ::ieee
+
+
+for paid papers reasearch:
+sci-hub : paper name/link
+
+paperwithcode: research ppr name
+
+
+
+
+RNN:- RECURRENT NEURAL NETWORK
+
+using 1D convents for sequence processing
+
+
+TEXTUAL CLASSIFICATION:-
+
+each word having a unique integer
+computer understands no only
+
+
+
+techniques for converting word to integer:-
+
+.....break sentences into tokens
+
+1. one-hot encoding
+2.word embedding
+
+
+issue wd one-hot encoding is infinite no of columns
+too large space 
+inefficiet use of space
+
+makes sparse matrix , with more 0's
+opposite of it is dense matrix
+
+WORD EMBEDDINGS:-
+finds similarity between words
+low dimensions 
+works well on large columns nd vocabulary
+
+coding:-
+
+from keras.layers import Embedding
+embedding_layer = Embedding(10000,64)
+
+"word embedding is converting words to integer"
+
+10000 = length of dictionary, 100000 words
+64 = length of vector, hr word k against 64 lentgh ka vector bny ga
+
+
+BAGGING:-
+
+bag of words
+
+
+
+hashing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

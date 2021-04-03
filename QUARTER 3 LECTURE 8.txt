@@ -1,0 +1,99 @@
+RNN:
+Maintains history, applies dot product and repitites it untill the length of input 
+
+
+vanashing gradient problem-
+
+time-step:
+input-features: no of words
+
+
+now w.U + b
+
+where u is the old state which RNN has to remmember
+
+
+in RNN we use tanh activation function
+
+vanishing gradient problem
+
+
+LSTM, GRU(gated recurrrent unit)
+
+
+
+only RNN results were not showing good reslyts so LSTM, ANF GRU is used along with
+
+
+f-t:-part to forget 
+k-t:- part to memorize, current site
+i-t:-what new ot learn
+
+
+
+urdu translator of imdb into urdu
+
+
+
+TIME SERIES DATA:- 
+
+gru in time series data
+
+
+how to inprove:-
+
+recurrent dropout
+stacking recurrent layers
+bidirectional recurrent layers(2 rnn, learning power increases)
+
+
+ 60 min in one hour
+
+after every 10 min so 6 elemnets 
+
+6 * 24
+
+6*24*5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

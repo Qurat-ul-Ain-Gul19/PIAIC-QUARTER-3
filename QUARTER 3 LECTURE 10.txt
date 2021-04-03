@@ -1,0 +1,521 @@
+CHAPTER 7:-
+
+
+Two types of topologies
+1.sequential( layers r stacked on the top of each other sequentially) 
+2.functional api
+
+
+functional api:-
+Inputs a tensor and outputs a tensor
+graph like models
+
+
+in sequential one input and one output , output of one layer becomes input of the next layer
+
+in functional api
+one input and multi output:
+like giving scaler and regression output also
+
+multiple inputs , single output
+
+
+INCEPTION BLOCK:- Research paper
+
+
+Call-Back function:-
+as soon as overfitting starts then stop at that time:-
+or make a point to stop at a certain accuarcy
+in sequentail model as long as the epoc is running then no stop i  between
+
+Tensor Board Browser-based visualization:-
+what each does , how nodes learn , we get to know due to learning happens
+
+during training everyhting that happens and how it is doing can be done through TENSOR BOARD BASED VISUALIZATION
+
+
+model emsembling:- weights define of a particular model , if in case of multiple model usage
+ 
+ESEMBLE LEARNING:-
+Many models when used
+
+
+SEQUENTIAL ARCHITECTURE:-
+
+multi-model input:-
+two or more model interdependent:-
+input can be one or more than one and outputs also
+
+like such a model in whcih U have to use CNN, RNN, ANN at the same time, then how to use all simultaenoouly
+
+3 models and 3 outputs and take their avg: is not optimable,
+
+this can nver b done using sequential topology
+
+
+inception FAMILY:-   ....................imp
+
+science hub
+
+inception family:input into several parallel convolutional branches after merge single tensor
+
+
+bottleneck problem causing information loss , also solved by this thing
+
+AN inception modules:-
+same data passed through different CNN architectures
+and then average pooling and then concatenating 
+
+
+RESIDUAL REINJECTION:-
+One output may get into the 3rd layer as input instaed os layer 2
+
+
+model = Model(input-tensor,output-tensor)
+
+keras has viz-utilities for visualization of all activity in between the layers
+graphical respresentation
+
+IN functional_api compilation and eval step remains same only architecture varies
+
+
+
+7.1.2
+MULTI INPUT PROBLEM:-
+
+embedding layer si for geometrical represnention between the words int he text
+
+https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_algorithms_performance_metrics.htm
+
+
+embedded layer 2d input but gives 3d tensor
+
+multi-output models:- multi heads
+
+A SOCIAL MEDIA PRBLEM WITH THREE output single INPUT
+
+takes a post and tell if the writer is age, gender, income
+
+
+individual loss func and activation func for each classifer and then concatnate
+
+feature map nd input to have same dimension then padding is added
+
+
+
+DIRECTED-ACYCLIC GRAPH OF LAYERS:
+Such a graph in which input wont meet output
+
+in this not only mutlioutput, multi-input but more netwrok architecture can be made
+
+inception is an architecture of cnn model
+inspired from netwrok in a network architecture 
+
+it consist of stack of modules, multi-parallel branches
+
+inception3 already present in keras
+
+
+..max pooling, avg-pooling, global-pooling( at last layer we use it)
+
+XCEPTION: extreme inception
+
+spatial,channel-wise features, fully separated
+
+7.8
+
+
+
+
+when updating weights updation at backward propagtion :vanashing gradient problem
+
+
+when dloss /dw is very small then dwold = dw new  , this porblem is vanashing gradient problem, due to samll setp size, the effect of dloss /dw would be  unobsrevabel
+
+
+
+dw new =  dw old - learning-rate(dloss/dw)
+
+exploding gradient:
+
+when dloss /dw is very large then dwold = dw new  , this porblem is vanashing gradient problem , it wll keeo on moving btw one extreme to the other , never reach at a optimal place
+
+
+
+bottle-neck:-
+when nodes quantity kam zaida they abrupt network architecture so this is Bottleneck
+
+RESIDUAL CONNECTIONS
+
+
+layer-weight sharing:-
+one layer used more than one time
+
+one layer made, nad used more than once
+
+
+MODEL SHARING
+;-
+ONe whole model as a layer
+
+2 sets of cctv
+
+7.1.7
+
+
+pyqt5: drag and drop :- for ui's building
+
+inter:- for desktop application
+
+
+
+https://github.com/EnggQasim/Saylani-A.I/blob/master/DOCKER/class1.txt
+
+docker
+
+
+
+
+
+
+INCEPTION BLOCK REASEARCH PAPER:-
+
+
+INTRO:-
+ 
+We propose a deep convolutional neural network architecture codenamed Inception, which was responsible for setting the new state of the art for classification
+and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014
+(ILSVRC14). The main hallmark of this architecture is the improved utilization
+of the computing resources inside the network. This was achieved by a carefully
+crafted design that allows for increasing the depth and width of the network while
+keeping the computational budget constant. To optimize quality, the architectural
+decisions were based on the Hebbian principle and the intuition of multi-scale
+processing. One particular incarnation used in our submission for ILSVRC14 is
+called GoogLeNet, a 22 layers deep network, the quality of which is assessed in
+the context of classification and detection.
+
+
+........the Inception architecture that has
+been shown to achieve very good performance at relatively
+low computational cost
+
+
+conclusion
+
+We have presented three new network architectures in detail:
+• Inception-ResNet-v1: a hybrid Inception version that
+has a similar computational cost to Inception-v3
+from (Szegedy et al. 2015b).
+• Inception-ResNet-v2: a costlier hybrid Inception version
+4283
+with significantly improved recognition performance.
+• Inception-v4: a pure Inception variant without residual
+connections with roughly the same recognition performance as Inception-ResNet-v2.
+We studied how the introduction of residual connections
+leads to dramatically improved training speed for the Inception architecture. Our latest models (with and without
+residual connections) outperform all our previous networks,
+just by virtue of the increased model size, while keeping
+the overall number of parameters and computational cost in
+check compared to competing approaches.
+
+
+
+
+
+Inception Network from Scratch
+
+
+https://www.analyticsvidhya.com/blog/2018/10/understanding-inception-network-from-scratch/
+
+ Inception network was once considered a state-of-the-art deep learning architecture (or model) for solving image recognition and detection problems.
+
+ Inception network was once considered a state-of-the-art deep learning architecture (or model) for solving image recognition and detection problems.
+
+
+Bigger the model, more prone it is to overfitting. This is particularly noticeable when the training data is small
+Increasing the number of parameters means you need to increase your existing computational resources\
+
+
+soltuion:-
+sparsely connected model
+
+
+
+“(Inception Layer) is a combination of all those layers (namely, 1×1 Convolutional layer, 3×3 Convolutional layer, 5×5 Convolutional layer) with their output 
+filter banks concatenated into a single output vector forming the input of the next stage.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

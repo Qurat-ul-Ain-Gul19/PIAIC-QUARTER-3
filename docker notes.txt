@@ -1,0 +1,177 @@
+the virtual machine (VM).
+
+ a technology that would let us safely and securely run multiple business
+applications on a single server.
+
+
+interguie:		intreeeg
+
+brush up. improve
+
+procure: -get
+
+
+DOCKER :-
+Its basically an eco-sytem where u run and conatin the containers
+
+
+1.DEVELOPMENT TEAM
+2.TESTING TEAM
+3.OPERATION TEAM (for hosting it to a remote server)
+
+
+For shipping the software , u need a conatiner that can aptly send ur product to the other machine
+and run well on it as it was on ur machine.
+That conatiner would be like copying ur whole OS / cdrive and giving it to the next perosn
+but thats not practically possible
+
+so Hypervisor comes into the scene
+
+
+4.GUEST/VIRTUAL OS (but can do things same as original os)
+3.HYPERVISOR / for creating an img of os, so that all the software along wd its dependencies and frameworks used can b ackaged and ported to the next machine
+ 
+2.ORIGINAL OS
+1.HARDWARE
+
+Now in form of conatiner we give a virtual img of our OS to the other system
+when they get that img/ class they make an object/instance of it in thier own machine and begin using it scroupously
+
+
+with one class/img u can have multiple instances/objects
+
+
+
+SHORTCOMING OF HYPERVISOR:-
+
+every new application will require a new guest OS for it but the phyical resourse/hardware like ram, memoery , etc will be same
+so it would be cubersome for ur phyical machine to run multiple os on it
+
+so this probelm gave rise to DOCKER and container systems
+
+
+4.GUEST/VIRTUAL OS | GUEST OS  | GUEST OS
+3.HYPERVISOR
+2.ORIGINAL OS
+1.HARDWARE
+
+LXC: - LInux containers
+
+
+4.container1(app1 )  | container 2 (app2 )  | container 3(app3)
+3.DOCKER
+2.ORIGINAL OS
+1.HARDWARE
+
+
+
+
+Clinet-server architecture
+
+an environment
+an eco-system
+
+Moby is an open-source project created by Docker to enable and accelerate software containerization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

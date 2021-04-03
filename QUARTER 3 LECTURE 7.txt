@@ -1,0 +1,113 @@
+RNN:-
+
+
+opencv:- takes real time video/img input and shows on desktop
+
+
+model.load(trainable_parameters)
+
+out of diff vectorization ttechniques in deep learning , only embedding is the one which reduces the dimensionality
+
+SENTIMENT ANALYSIS
+TEMPERATURE FORECASTING
+
+computer tries to find statsical structure between the text given
+
+
+pair.withgoogle.com
+
+site for ?
+
+
+Q learning:- REINFORCEMENT LEARNIG
+
+
+
+REUTER AND IMDB DATASET, ALGO
+
+
+
+Hashing concept
+
+attracted from db
+
+converts each word into hash
+
+calculates modulous of dimensionality of that hash no,
+
+
+nd makes it the index no of it
+
+
+
+embedding finds the similarity between the words and shows in geomatrical reppresentation
+
+
+
+1.TRANSFER LEARNING
+2.USING EMBEDDING LAYER
+
+pak urdu translator 
+
+
+
+embedding layer has restriction; not that good layer 
+so RNN AND ID conv layer is used
+
+
+
+
+
+
+825992
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

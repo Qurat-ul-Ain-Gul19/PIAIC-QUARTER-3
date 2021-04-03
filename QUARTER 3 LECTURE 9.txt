@@ -1,0 +1,512 @@
+6.4 
+
+stm 32, 
+
+mcodex
+
+SEQUENCE DATA WD COVENETS
+
+1D
+
+vanashing gradient probelm:- lSTM, GRU (takes less power)
+
+
+cnn takes feature maps from local patterns in the img
+
+downsampling is another imp fet of cnn
+
+
+
+CONV 1D
+For sequential data:-
+tim series nd textual data
+
+
+
+pros and cons of 1d conv:-
+
+its fast,as compared to RNN which remmembers state and is slow
+not as good as rnn, gru,lstm which r best for sequential data
+
+
+translation invariant , pic remains same , nomatter what
+
+
+word morphology:-
+each new word that comees
+
+1D COVNET:-
+input= (Samples,time, features)
+
+
+
+global pooling layer
+
+
+word embedding:- bare vector to chota kr deta ha..k hr word k against 128 size ka vector hoga
+
+input-dimension :- size of vocab
+
+
+CHAPTER 7
+
+functional API:-
+a way of forming the model
+
+
+FASHION MNIST:
+
+OPTIMIZER:- SGD, RMS
+RELU, RMS PROP , best result
+NO OF nOdes: 32 - 256
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REASEARCH PAPER IMP Points:-
+
+
+CNN:-
+An imp catagory of NN , effective for img recog and classification
+
+
+LeNet Architecture(1990s)
+for character recognition tasks such as reading zip codes, digits etc
+
+classification model, 
+
+
+main operations in convNet:_
+1. convolution
+2.non- linearity (ReLU)
+3.pooling or sub sampling
+4.Classification (fully connected layer)
+
+AN RGB img has three channels :-RGB 
+each of them is a 2D matrix , where 3 then collectively stacked over each other  having pixel values in the range of 0 to 255
+
+
+
+A grey Scale img has just one channel where the value of pizels will be from 0 -255 
+where o is for black and 255 indicating white
+
+
+
+the purpose of Convolution layer is to extract features from the input img
+
+it learns by using small squares of input data
+
+the output matrix after passing through covolution layer is called FEATURE MAP/ convolved feature / activation map
+
+here the input matrix and kernal/filter/feature detector  part is multiplied and the resultant digit is written after passing that stride
+
+element wise multiplication is done
+
+...the more the no of filter v have, the more the image features get extracted , and the better our network becomes at recognizing the unseen imgz
+
+
+
+...DEPTH corresponds to the no of filters v use for the convolution operation
+
+...STRIDE is the no of pixels by which we slide the filter matrix over the input matrix.
+when strid eis 1, we move the filters one pixel at a time
+
+...ZERO-PADDING:-
+
+sometimes v pad input matrix with zeros around the border, so we can apply filter to bordering emements of our input imgae matrix
+
+
+adding zero padding is  :- wide convolution
+not-using zero padding is :- narrow convolution
+
+RELU :- is used after every convolution operation , is a non-linear 
+
+output =max (0, input)
+
+relu is an elemnet wise operation , a function which when passed a matrix replaces the negative values of pixels into 0 and rest remains same
+
+
+as conv layer did a linear operation i.e matrix multiplication and then addditon , elemnet wise , so to introduce non-linearity we use relu
+
+
+
+.....POOLING STEP
+1.Max pooling
+2.average pooling
+3.sum pooling
+
+Spatial pooling also called sub-sampling or down-sampling reduces the dimensionality of each feature but retains imp information
+
+
+here we define a matrxi size like 2*2 window and take the largest elments from the rectified map within that window: - max pooling
+
+if we take average of them the, : AVg pooling or 
+if we take sum of all elements in that window: sum pooling
+
+
+
+benefits of pooling layer
+
+1. input representaions more smaller and managebale
+2. reduces no of parametrs and computations in the network , controlling overfitting
+
+
+
+FULLY-CONNECTED LAYER:-
+multilayer preceptron that used softmax activation function in output layer , classifiers like SVM can be used but softmax is better)
+
+it takes the output of max pooling and convolutional layers and used these features for classifying the input img into various classes 
+
+
+IN A CNN , CONVOLUTION + POOLING LAYERS ACT AS FEATURE EXTRAcTORS FORM THE INPUT IMG WHILE FULLY CONNECTED LAYER ACT AS A CLASSIFIER
+
+
+total error is computed as :-
+
+TOTAL error = E 1/2 (target probablity - output probablity )^2
+
+
+
+BACK-PROPOGATION:
+
+HEre gradients of errors with respect to all the network weights r calculated and 
+use gradient descent optimizer to update all filter values and minimize the output error
+
+
+
+
+COVNETS Architectures IN THE MARKET:-
+
+1.LeNet :- 1990
+.
+.
+.
+.
+.
+.
+.
+incubation period,:- AI WINTER, 
+.
+.
+.
+.
+.
+
+2.ALexNet 2012 won ImageNet Large Scale Visual Recognition Challange ( ILSVRC)
+
+
+3. ZF Net 2013
+it was an improvement to AlexNet by tweaking the architecture hyperparameters
+
+
+
+4. GoogleNet 2014
+The ILSVRC 2014 winner was a Convolutional Network from Szegedy e al from Google
+
+its main contribution was the development of an INCEPTION MODULE that dramatically reduced the no of parameters in the network
+
+4M as compared to AlexNet with 60M
+
+
+
+5.VGGNET 2014
+
+the runner up in 2014 ILSVRC  was the network knows as VGGNet 
+
+Its main contribution was in shwowing that the depth of the network is a critical component for good performance
+
+
+
+
+6. ResNets 2015
+
+Resifdual Network as the winne of ILSVRC 2015 
+
+REsnets are the satte of art convolutional neural netwrok models are a default choice for using ConvNets in practise
+
+
+
+7.DesnseNet 2016
+
+it has directly connected layered acrhitecture in a feed-forward fashion
+it the best on uptill now
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
